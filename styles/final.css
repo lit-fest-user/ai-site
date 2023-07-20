@@ -1,0 +1,10 @@
+body {
+    background: url("../media/wps/moon_thingy.jpg");
+    background-position-x: center;
+    background-size: 100%;
+
+    color: white;
+
+    font-family: "Roboto mono", monospace;
+
+}

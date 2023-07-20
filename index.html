@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learn About AI</title>
+
+    <script src="./scripts/overlay.js" defer></script>
+
+    <link rel="stylesheet" href="./styles/defaults.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class = "logo-container">
+            <h1 class = "logo-text">AI_HUB</h1>
+        </div>
+    </nav>
+
+        <center>   
+                <div class = "main-container">
+                    <div class = "card-container">
+                        <div class = "card">
+                            <h1 class = "card-logo">ChatGPT <i class="fab fa-rocketchat emoji"></i></h1>
+                            <p class = "card-moto">s an artificial intelligence chatbot developed by OpenAI and launched on November 30, 2022. It is notable for enabling users to refine and steer a conversation towards a desired length, format, style, level of detail, and language used. Successive prompts and replies are taken into account at each stage of the conversation as a context.</p>
+                            <button id = "chatgpt-btn">About <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+        
+                        <div class = "card">
+                            <h1 class = "card-logo">Bard <i class="fab fa-google emoji"></i></h1>
+                            <p class = "card-moto">Bard is a conversational generative artificial intelligence chatbot developed by Google, based initially on the LaMDA family of large language models (LLMs) and later the PaLM LLM. It was developed as a direct response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses, before expanding to other countries in May.</p>
+                            <button id = "bard-btn">About <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+        
+                        <div class = "card">
+                            <h1 class = "card-logo">Nia <i class="fas fa-laptop emoji"></i></h1>
+                            <p class = "card-moto">Infosys Nia converges the big data/analytics, machine learning, knowledge management, and cognitive automation capabilities of Mana; end-to-end RPA capabilities of AssistEdge; advanced, high-performance and scalable machine learning capabilities of Skytree; and optical character recognition (OCR), natural language processing (NLP) capabilities and infrastructure management services.</p>
+                            <button id = "nia-btn">About <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+        
+                        <div class = "card">
+                            <h1 class = "card-logo">Watson <i class="fas fa-database emoji"></i></h1>
+                            <p class = "card-moto">IBM Watson is a question-answering computer system capable of answering questions posed in natural language,[1] developed in IBM's DeepQA project by a research team led by principal investigator David Ferrucci.[2] Watson was named after IBM's founder and first CEO, industrialist Thomas J. Watson.</p>
+                            <button id = "watson-btn">About <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="views/final.html">References</a>
+            </center>
+    
+
+
+    
+    <script>
+            cbtn = document.getElementById("chatgpt-btn")
+            cbtn.onclick = function() {
+                window.location.href = "views/chatgpt.html"
+            }
+
+            bbtn = document.getElementById("bard-btn")
+            bbtn.onclick = function() {
+                window.location.href = "views/bard.html"
+            }
+
+            nbtn = document.getElementById("nia-btn")
+            nbtn.onclick = function() {
+                window.location.href = "views/nia.html"
+            }
+
+            wbtn = document.getElementById("watson-btn")
+            wbtn.onclick = function() {
+                window.location.href = "views/watson.html"
+            }
+        </script>
+</body>
+</html>
